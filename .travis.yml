@@ -1,5 +1,7 @@
 language: go
-
+arch:
+    - AMD64
+    - ppc64le
 script:
     - go vet ./...
     - go test -v ./...
